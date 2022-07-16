@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contacts</title>
+</head>
+<body style="background-size: cover; " background="background.avif">
+    <nav class="navbar navbar-expand-lg bg-dark mx-auto">
+        <div class="container-fluid">
+          <a  style="color:rgb(204, 25, 183) ;" class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a style="color:rgb(204, 25, 183);"  class="nav-link active" aria-current="page" href="WD11P_EXERCISE 9_SAMSON.html">HOME</a>
+              <a style="color:rgb(204, 25, 183);" class="nav-link active" href="projects.html">PROJECTS</a>
+              <a style="color:rgb(204, 25, 183);" class="nav-link active" href="contacts.html">CONTACTS</a>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Quick Contact</h3>
+          <h4>Contact me today, and get a reply from me within the day!</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" data-bs-toggle="modal" data-bs-target="#sampleModal"  id="contact-submit" data-submit="...Sending">Submit</button>
+
+          </fieldset>
+        </form>
+        
+        <div>
+            <a href="https://www.facebook.com/angelo.samson.50"><h2><span>Facebook</span></h2></a>
+            
+            <a href="https://github.com/angelo-sam"><h3><span>Github</span></h3></a>
+            
+          </div>
+          
+          
+      </div>
+      
+      <div class="modal fade" id="sampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Attention!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>PLease make sure you write the correct information.</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+     
+     
+    
+</body>
+<script src="js/bootstrap.bundle.js"></script>
+</html>
